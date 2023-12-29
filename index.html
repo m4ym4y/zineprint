@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+</head>
+<body>
+  <form>
+    <div>
+    <label for="backwards">Right to Left (for manga or if there is no cover)</label>
+      <input type="checkbox" id="backwards" />
+    </div>
+    <div>
+      <label for="file">Zine PDF</label>
+      <input type="file" id="file" accept=".pdf" />
+    </div>
+    <div>
+      <button id="submit">Submit</button>
+    </div>
+  </form>
+  <br />
+  <canvas id="preview" width="1000" height="1000" />
+  <script src="./build/index.bundle.js"></script>
+</body>
